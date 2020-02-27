@@ -1,0 +1,21 @@
+{
+  "name": "typescriptclients",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"rollup -c",
+    "watch":"rollup -cw"
+  },
+  "author": "leif stawnyczy",
+  "license": "MIT",
+  "dependencies": {
+    "rollup": "^1.31.1",
+    "rollup-plugin-typescript2": "^0.26.0",
+    "typescript": "^3.8.2"
+  }
+}
