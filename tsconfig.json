@@ -4,6 +4,7 @@
         "declarationDir": "./dist",
         "module": "es6",
         "noImplicitAny": true,
+        "lib": ["es5", "dom", "ES2015"],
         "outDir": "./dist",
         "target": "es5"
     },

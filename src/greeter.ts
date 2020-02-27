@@ -1,5 +1,9 @@
+import { sqrt } from "mathjs";
+
 export class Greeter {
     greet() {
-        console.log('hello world');
+        let rounded = sqrt(-4);
+        
+        console.log('hello world ' + rounded);
     }
 }

@@ -5,15 +5,23 @@
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"rollup -c",
-    "watch":"rollup -cw"
+    "build": "rollup -c",
+    "watch": "rollup -cw"
   },
   "author": "leif stawnyczy",
   "license": "MIT",
   "dependencies": {
+    "@rollup/plugin-json": "^4.0.2",
+    "@types/mathjs": "^6.0.4",
+    "mathjs": "^6.6.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
     "rollup": "^1.31.1",
     "rollup-plugin-typescript2": "^0.26.0",
     "typescript": "^3.8.2"
