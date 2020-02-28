@@ -6,7 +6,9 @@
         "noImplicitAny": true,
         "lib": ["es5", "dom", "ES2015"],
         "outDir": "./dist",
-        "target": "es5"
+        "target": "es5",
+        "inlineSourceMap": true,
+        "sourceMap": false
     },
     "include": [
         "src/**/*"
