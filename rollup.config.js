@@ -10,7 +10,7 @@ export default {
     {
         file: 'dist/bundle.js',
         format: 'iife',
-        name: 'version'
+        name: 'MyNamespace'
     }
   ],
   external: [

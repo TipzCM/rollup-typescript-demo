@@ -11,6 +11,7 @@
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -cw",
+    "prod:test": "./node_modules/karma/bin/karma start",
     "test": "./node_modules/karma/bin/karma start --no-single-run --browser=Chrome"
   },
   "author": "leif stawnyczy",
