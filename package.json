@@ -18,21 +18,21 @@
   "license": "MIT",
   "dependencies": {
     "@rollup/plugin-json": "^4.0.2",
-    "@types/mathjs": "^6.0.4",
-    "mathjs": "^6.6.1"
+    "@types/mathjs": "^6.0.5",
+    "mathjs": "^6.6.2"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.2",
     "@rollup/plugin-node-resolve": "^7.1.1",
-    "@types/jasmine": "^3.5.7",
+    "@types/jasmine": "^3.5.10",
     "jasmine": "^3.5.0",
     "karma": "^4.4.1",
     "karma-chrome-launcher": "^3.1.0",
     "karma-cli": "^2.0.0",
     "karma-jasmine": "^3.1.1",
     "karma-typescript": "^4.1.1",
-    "rollup": "^1.31.1",
+    "rollup": "^1.32.1",
     "rollup-plugin-typescript2": "^0.26.0",
-    "typescript": "^3.8.2"
+    "typescript": "^3.8.3"
   }
 }
